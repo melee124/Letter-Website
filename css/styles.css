@@ -1,0 +1,14 @@
+#story {
+  display: none;
+}
+
+#story {
+  background-color: #ead69f;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#image {
+  height: 100px;
+  width: 100px;
+}
