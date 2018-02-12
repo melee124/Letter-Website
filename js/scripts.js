@@ -6,12 +6,12 @@ $(document).ready(function() {
     var streetInput = $("input#street").val();
     var verbInput = $("input#verb").val();
     var nounInput = $("input#noun").val();
-    $(".person1").append(person1Input);
-    $(".person2").append(person2Input);
-    $(".city").append(cityInput);
-    $(".street").append(streetInput);
-    $(".verb").append(verbInput);
-    $(".noun").append(nounInput);
+    $(".person1").text(person1Input);
+    $(".person2").text(person2Input);
+    $(".city").text(cityInput);
+    $(".street").text(streetInput);
+    $(".verb").text(verbInput);
+    $(".noun").text(nounInput);
 
     $("#story").show();
     event.preventDefault();
